@@ -47,6 +47,7 @@ export class AppComponent implements AfterViewInit{
     this.marker = L.marker([ 0, 0 ], { icon: issIcon }).addTo(this.map);
     this.tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
+      minZoom: 2,
       attribution:
         'Make by <a target="_blank" href="http://jb.designio.tech">Joseph Boscán</a> in Angular | &copy; <a target="_blank" href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     });
