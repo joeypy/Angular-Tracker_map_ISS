@@ -1,27 +1,12 @@
-# TrackerMapISS
+# Tracker Map ISS in Realtime
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
+This project show the `Internacional Space Station` in realtime using Angular and (Leaflet JS)[https://leafletjs.com/] from the API (https://api.wheretheiss.at)[https://api.wheretheiss.at/v1/satellites/25544], the project make a request every second to get the data and show it in the map.
 
-## Development server
+## Demo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- (Project Demo)[https://joeypy.github.io/TrackerMapISS/]
 
-## Code scaffolding
+## Screenshot
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![Image](map.png)
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
